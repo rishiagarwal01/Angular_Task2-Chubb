@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+section.pricing {
+  background: #007bff;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 1rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1.2rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.8;
+}
+
+.pricing .btn {
+  font-size: 90%;
+  border-radius: 200px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.8;
+  transition: all 0.2s;
+  /* zoom:1.2; */
+}
+.pricing .btn:hover{
+  opacity: 1;
+  zoom: 1.2;
+  letter-spacing: 3px;
+}

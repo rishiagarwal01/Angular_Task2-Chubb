@@ -1,0 +1,11 @@
+<section class="pricing  py-5 ps-5">
+  <div class="row container justify-content-center ">
+    <app-cards class="col-lg-4" *ngFor="let item of plans" [price]=" item.price" [plan]=" item.plan" [desc]=" item.desc"
+      [storage]=" item.storage" [limit]=" item.limit" [access]=" item.access" [private]=" item.private"
+      [support]=" item.support" [subdomain]=" item.subdomain" [reports]=" item.reports" [privateIcon]="item.privateIcon"
+      [privateList]="item.privateList" [supportIcon]="item.supportIcon" [supportList]="item.supportList"
+      [subdomainIcon]="item.subdomainIcon" [subdomainList]="item.subdomainList" [reportsIcon]="item.reportsIcon"
+      [reportsList]="item.reportsList">
+    </app-cards><br>
+  </div>
+</section>
